@@ -1,0 +1,95 @@
+
+    /* 전체 폼을 중앙에 배치합니다 */
+div {
+    display: flex;
+    justify-content: center;
+
+   
+  }
+  
+  /* 폼 스타일링 */
+  form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* 라벨과 인풋 스타일링 */
+  label,
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* 인풋 필드 스타일링 */
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* 버튼 스타일링 */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* 호버 시 버튼 스타일 변경 */
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
+  /* 폼 스타일링 */
+  form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    justify-content : center;
+  }
+  
+  /* 라벨과 인풋 스타일링 */
+  label,
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* 인풋 필드 스타일링 */
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* 버튼 스타일링 */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* 호버 시 버튼 스타일 변경 */
+  button:hover {
+    background-color: #0056b3;
+  }
+  

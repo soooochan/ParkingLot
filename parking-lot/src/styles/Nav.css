@@ -1,0 +1,24 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    
+    display: flex;
+
+    background-color:rgb(135,61,110,0.50)
+  
+  }
+  
+  nav > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+  }
+  a {
+    text-decoration: none;
+    color:white;
+  }
