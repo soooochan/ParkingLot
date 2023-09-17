@@ -6,4 +6,9 @@ Hanium_Parkinglot
 
 
 
-## 
+### Parking lot Main Page 
+  * Login 구현
+
+### Parking lot 
+  * Parking Area Type Occupied Status
+  * Car Type Occupied Status 
