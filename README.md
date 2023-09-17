@@ -12,3 +12,7 @@ Hanium_Parkinglot
 ### Parking lot 
   * Parking Area Type Occupied Status
   * Car Type Occupied Status 
+  * Parking 별 차지하는 구역과 차 종류
+
+### Prediction 
+ * 차 구역 별 점유율을 예측해서 알림 
