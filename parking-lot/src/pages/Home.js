@@ -1,7 +1,13 @@
 import React from 'react';
-import"../styles/Home.css";
+import "../styles/Home.css";
+import {useNavigate} from 'react-router-dom';
 
-import { withRouter } from 'react-router-dom';
+function withNavigation(Component) {
+  return function (props) {
+    const navigate = useNavigate();
+    return <Component {...props} navigate={navigate} />;
+  };
+}
 
 class Home extends React.Component {
   constructor(props) {
@@ -27,8 +33,9 @@ class Home extends React.Component {
       [id]: value
     });
   }
+ 
   goToSign = () => {
-    this.props.history.push('/parkinglot');
+    this.props.navigate('/parkinglot');
   }
 
   render() {
@@ -36,8 +43,11 @@ class Home extends React.Component {
 
     return (
       <div >
+
         <form onSubmit={this.handleSubmit}>
+          <h2>로그인</h2>
           <div>
+        
             <label htmlFor="username">Username: </label>
             <input 
               type="text"
@@ -55,11 +65,11 @@ class Home extends React.Component {
               onChange={this.handleChange}
             />
           </div>
-          <button type="submit" onClick={this.goToSign}>Login</button>
+          <button type="submit"  onClick={this.goToSign}>Login</button>
         </form>
       </div>
     );
   }
 }
 
-export default Home;
+export default withNavigation(Home);
