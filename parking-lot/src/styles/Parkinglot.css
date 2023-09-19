@@ -6,6 +6,28 @@
   
    img {
     width: 70%;
+    margin : 10px;
+    opacity: 0.8;
   }
   
- 
+  .mainname{
+    width: 90%;
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    border: none;
+    background-color: rgba(193,149,37,0.28);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    margin-bottom:3px;
+    
+  }
+  .Select {
+    margin : 100px;
+  }
