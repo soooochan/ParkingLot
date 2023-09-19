@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import "../styles/Home.css";
 import {useNavigate} from 'react-router-dom';
 
@@ -42,32 +42,39 @@ class Home extends React.Component {
     const { username, password } = this.state;
 
     return (
-      <div >
-
-        <form onSubmit={this.handleSubmit}>
-          <h2>로그인</h2>
-          <div>
-        
-            <label htmlFor="username">Username: </label>
-            <input 
-              type="text"
-              id="username"
-              value={username}
-              onChange={this.handleChange}
+      <Fragment>
+          <div className="home-content">
+            <img
+              src="/img/parking.png"
+              alt="logo"
+              className="home-img"
             />
+            <form onSubmit={this.handleSubmit} className="home-select-box">
+                    <h2>로그인</h2>
+                    <div>
+                  
+                      <label htmlFor="username">Username: </label>
+                      <input 
+                        type="text"
+                        id="username"
+                        value={username}
+                        onChange={this.handleChange}
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="password">Password: </label>
+                      <input 
+                        type="password"
+                        id="password"
+                        value={password}
+                        onChange={this.handleChange}
+                      />
+                    </div>
+                <button type="submit"  onClick={this.goToSign}>Login</button>
+              </form>
           </div>
-          <div>
-            <label htmlFor="password">Password: </label>
-            <input 
-              type="password"
-              id="password"
-              value={password}
-              onChange={this.handleChange}
-            />
-          </div>
-          <button type="submit"  onClick={this.goToSign}>Login</button>
-        </form>
-      </div>
+    </Fragment>
+    
     );
   }
 }
