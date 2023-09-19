@@ -2,7 +2,8 @@ import React from "react";
 import "../styles/Parkinginfo.css"
 
 const Parkinginfo = ({data}) => {
-    console.log("data",data);
+    console.log("parking",data);
+
     return(
         <div class="parkinginfo">
             {data.map((item,index)=>(

@@ -14,13 +14,17 @@ class Home extends React.Component {
       visible1:false,
       visible2:false
 
-
     }
     this.parkingData =[
        
       {typeName : "임산부", percent: "40%"},
       {typeName : "장애인 주차구역", percent: "30%"},
       {typeName : "전기차 충전소", percent: "30%"},
+    ];
+    this.cartypeData =[
+      {typeName : "승용차", percent: "40%"},
+      {typeName : "상용차", percent: "30%"},
+      {typeName : "전기차", percent: "30%"},
     ]
   }
   
@@ -67,7 +71,7 @@ class Home extends React.Component {
 
           
 
-          {visible2 && <Parkinginfo data={ this.parkingData } />} {/* 조건부 렌더링 */}
+          {visible2 && <Parkinginfo data={ this.cartypeData } />} {/* 조건부 렌더링 */}
           
         </div>
 

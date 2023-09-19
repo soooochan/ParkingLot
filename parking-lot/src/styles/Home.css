@@ -73,3 +73,42 @@ margin-left:10px;
   color: #3b6c7d;
 }
 }
+
+
+.home-select-box {
+  /* 원하는 스타일 */
+}
+
+.home-select-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home-select-box div {
+  margin-bottom: 15px;
+}
+
+.home-select-box label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.home-select-box input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%; /* 원하는 너비로 조정 */
+}
+
+.home-select-box button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home-select-box button:hover {
+  background-color: #0056b3;
+}
