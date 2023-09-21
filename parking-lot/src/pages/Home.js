@@ -50,10 +50,10 @@ class Home extends React.Component {
               className="home-img"
             />
             <form onSubmit={this.handleSubmit} className="home-select-box">
-                    <h2>로그인</h2>
+                    <h2>주차장 입력</h2>
                     <div>
                   
-                      <label htmlFor="username">Username: </label>
+                      <label htmlFor="username"> 주차장을 입력하세요!!! </label>
                       <input 
                         type="text"
                         id="username"
@@ -61,7 +61,7 @@ class Home extends React.Component {
                         onChange={this.handleChange}
                       />
                     </div>
-                    <div>
+                  { /*<div>
                       <label htmlFor="password">Password: </label>
                       <input 
                         type="password"
@@ -69,8 +69,8 @@ class Home extends React.Component {
                         value={password}
                         onChange={this.handleChange}
                       />
-                    </div>
-                <button type="submit"  onClick={this.goToSign}>Login</button>
+    </div>*/}
+                <button type="submit"  onClick={this.goToSign}>Submit</button>
               </form>
           </div>
     </Fragment>

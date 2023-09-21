@@ -16,15 +16,42 @@ class Home extends React.Component {
 
     }
     this.parkingData =[
-       
-      {typeName : "임산부", percent: "40%"},
-      {typeName : "장애인 주차구역", percent: "30%"},
-      {typeName : "전기차 충전소", percent: "30%"},
+
+      {typeName : "0", parkingarea: "general", percent: "40%"}, 
+      {typeName : "1", parkingarea: "handicapped", percent: "40%"},
+      {typeName : "2", parkingarea: "general", percent: "30%"},
+      {typeName : "3", parkingarea: "handicapped", percent: "30%"},
+      {typeName : "4", parkingarea: "pregnant woman", percent: "40%"},
+      {typeName : "5", parkingarea: "general", percent: "30%"},
+      {typeName : "6", parkingarea: "pregnant woman", percent: "30%"},
+      {typeName : "7", parkingarea: "general", percent: "40%"},
+      {typeName : "8", parkingarea: "general", percent: "30%"},
+      {typeName : "9", parkingarea: "general", percent: "30%"},
+      {typeName : "10", parkingarea: "general", percent: "40%"},
+      {typeName : "11", parkingarea: "pregnant woman", percent: "30%"},
+      {typeName : "12", parkingarea: "pregnant woman", percent: "30%"},
+      {typeName : "13", parkingarea: "general", percent: "40%"},
+      {typeName : "14", parkingarea: "general", percent: "30%"},
+      {typeName : "15", parkingarea: "general", percent: "30%"},
+      {typeName : "16", parkingarea: "general", percent: "40%"},
+      {typeName : "17", parkingarea: "general", percent: "30%"},
+      {typeName : "18", parkingarea: "general", percent: "30%"},
+      {typeName : "19", parkingarea: "general", percent: "40%"},
+      {typeName : "20", parkingarea: "general", percent: "30%"},
+      {typeName : "21", parkingarea: "pregnant woman", percent: "30%"},
+      {typeName : "22", parkingarea: "general", percent: "30%"},
+      {typeName : "23", parkingarea: "general", percent: "30%"},
+      {typeName : "24", parkingarea: "general", percent: "40%"},
+      {typeName : "25", parkingarea: "general", percent: "30%"},
+      {typeName : "26", parkingarea: "general", percent: "30%"},
+      {typeName : "27", parkingarea: "general", percent: "40%"},
+      {typeName : "28", parkingarea: "general", percent: "30%"},
+    
     ];
     this.cartypeData =[
-      {typeName : "승용차", percent: "40%"},
-      {typeName : "상용차", percent: "30%"},
-      {typeName : "전기차", percent: "30%"},
+      {typeName : "승용차", parkingarea: "general", percent: "40%"},
+      {typeName : "상용차", parkingarea: "general", percent: "30%"},
+      {typeName : "전기차", parkingarea: "general", percent: "30%"},
     ]
   }
   
